@@ -1,0 +1,53 @@
+div > img {
+    background-color: #d00b0b;
+    border-radius: 100%;
+    max-width: 500px;
+    border: 1px solid rgb(152, 9, 9);
+}
+
+body, html {
+    background-color: rgb(148, 148, 148);
+}
+
+.fundo {
+    margin: auto;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+}
+
+header {
+    
+    max-width: 1000px;
+    border: 1px solid rgb(135, 115, 115);
+    margin: auto; 
+}
+
+header > img {
+    display: block; 
+    margin: 0 auto; 
+    max-height: 90%; 
+}
+
+header > h1 {
+    margin: 0;
+    font-style: italic; 
+    text-align: center;
+    padding: 70px 0px; 
+    border: none; 
+}
+
+.slogan {
+    text-align: center;
+    font-family: var(--subtítulo);
+    color: var(--cor1);
+    font-size: 0.8rem;
+    text-align: justify;
+    padding: 8px;
+    padding-bottom: 0;
+}
+
+p {
+    padding: 0;
+    text-align: justify;
+}
